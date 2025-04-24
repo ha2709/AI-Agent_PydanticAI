@@ -68,6 +68,11 @@ Run any supported query through the AI agent.
 }
 ```
 
+## 📄 Example Output
+
+You can view a sample output by clicking the link below:
+
+[👉 View Example Output (PDF)](./example.pdf)
 
 ###  POST /summarize
 
