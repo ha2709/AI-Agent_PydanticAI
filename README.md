@@ -67,3 +67,22 @@ Run any supported query through the AI agent.
   "query": "Check these logs: ['INFO: User login', 'ERROR: Null pointer exception', 'WARNING: Timeout']"
 }
 ```
+
+
+###  POST /summarize
+
+No request body is required.
+
+Returns a list of summarized Jira issues
+
+```json
+[
+  {
+    "ticket_id": "ABC-123",
+    "summary": "App crashes on login when credentials are empty",
+    "severity": "High",
+    "component": "Authentication",
+    "assignee": "John Doe"
+  }
+]
+```
