@@ -27,7 +27,6 @@ source env/bin/activate  # or `.\env\Scripts\activate` on Windows
 ## Run the Server
 
 ``` bash
- 
 uvicorn app.main:app --reload
 ```
 
